@@ -1,0 +1,444 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ul,li,ol,li,dl,dt,dd{
+	list-style-type: none;
+}
+i{
+	font-style: normal;
+}
+a{
+	color: #000000;
+	text-decoration: none;
+}
+
+/* mian start */
+.ns-main{
+	width: 1200px;
+	padding: 10px 0px;
+	margin: 0px auto;
+}
+.ns-main>li{
+	display: inline-block;
+}
+.ns-active{
+	color: #a2a2a2;
+}
+.ns-active::before{
+	content: "/\00a0";
+	color: #ccc;
+	padding: 0 5px;
+}
+
+.ns-product-main{
+	width: 1200px;
+	margin: 0 auto;
+	/* border: 1px solid red; */
+}
+.ns-product-main>aside{
+	width: 170px;
+	float: left;
+	border: 1px solid #e5e5e5;
+	padding: 0px 5px;
+}
+
+.ns-product-main>aside h4{
+	padding: 5px 0px 0px;
+}
+.ns-recommend{
+	display: block;
+	padding: 20px 0px;
+	width: 100p%;
+	text-align: center;
+}
+aside>ul{
+	margin-top: 20px;
+}
+aside>ul>li{
+	padding: 0 0px 10px;
+	width: 100%;
+}
+aside>ul>li a img{
+	width: 100%;
+}
+aside>ul>li p:nth-of-type(1){
+	font-size: 15px;
+	padding: 10px 0px;
+}
+aside>ul>li p:nth-of-type(1):hover a{
+	transition: color 1s;
+	color: #00d7dc;
+	
+}
+aside>ul>li .ns-wares{
+	color: #00D7DC;
+	font-weight: 700;
+}
+
+aside>ul>li p:nth-of-type(3){
+	color: #898989;
+	padding: 5px 0px;
+}
+aside>ul>li p:nth-of-type(3) .ns-num{
+	color: #00d7dc;
+}
+
+
+article{
+	width: 1010px;
+	margin-left:190px ;
+}
+
+.ns-article-top{
+	width: 1000px;
+	padding: 5px;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	background-color: rgba(229, 229, 229, 0.4);
+}
+.ns-article-top ul{
+	display: flex;
+	position: relative;
+}
+.ns-article-top ul li{
+	padding: 3px 10px;
+	background-color: #fff;
+	font-size: 12px;
+	border: 1px solid #e5e5e5;
+	cursor: pointer;
+}
+.ns-article-top ul li:hover{
+	border: 1px solid #00EEF3;
+}
+.ns-article-top ul li:nth-child(1){
+	background-color: #00EEF3;
+}
+.ns-article-top ul li:last-child{
+	background-color: rgba(0, 0, 0, 0);
+	padding:0px;
+	margin-left: 20px;
+	border: none;
+	overflow: hidden;
+	position: relative;
+}
+.ns-article-top ul li:last-child:hover{
+	height: 60px;
+	position: absolute;
+	top:0px;
+	left: 178px;
+	background-color: #fff;
+	padding: 5px;
+	margin-top: -6px;
+	border: 1px solid #CECECE;
+}
+.ns-article-top ul li:last-child input{
+	border: 1px solid #cecece;
+	outline: none;
+	width: 50px;
+	height: 22px;
+}
+.ns-price-operation{
+	padding: 10px 0px;
+	position: absolute;
+	top:30px;
+	left: 5px;
+	font-size: 12px;
+}
+.ns-price-operation .oper_left{
+	margin-right: 37px;
+	cursor: pointer;
+	transition: color 0.5s;
+}
+.ns-price-operation .oper_left:hover{
+	color: #00D7DC;
+}
+.ns-price-operation .oper_right{
+	padding: 2px 8px;
+	border: 1px solid #cecece;
+	background-color: #f2f2f2;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+.ns-price-operation .oper_right:hover{
+	background-color: #bfbfbf;
+	color: #00D7DC;
+}
+
+.ns-product-list{
+	width: 1010px;
+	height: 1680px;
+	padding: 5px;
+}
+.ns-product-list ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.ns-product-list>ul>li{
+	height: 420px;
+	width: 240px;
+	margin-right:10px ;
+	transition: all 0.5s;
+}
+.ns-product-list>ul>li:hover{
+	box-shadow: 0 0 3px 3px #f8f8f8;
+}
+.ns-p-img{
+	padding: 5px;
+}
+.ns-p-img img{
+	width: 100%;
+	cursor: pointer;
+}
+
+/* 展示笔记本样式的容器 */
+.ns-p-scroll{
+	height: 30px;
+	width: 100%;
+}
+/* 左按钮 右按钮*/
+.nps-prev,.nps-next{
+	width: 20px;
+	height: 30px;
+	border: 1px solid #cecece;
+	text-align: center;
+	line-height: 30px;
+}
+.nps-prev{
+	float: left;
+	background-color: #e5e5e5;
+}
+.nps-next{
+	float: right;
+}
+
+/* 中间选项 */
+.ns-cen-move{
+	display: inline-block;
+	width: 196px;
+	height: 32px;
+	position: relative;
+	overflow: hidden;
+}
+.ns-cen-move>ol{
+	width: 394px;
+	height: 32px;
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	/* transition: all 0.5s; */
+}
+.ns-cen-move>ol>li{
+	width:30px;
+	height: 30px;
+	border: 1px solid #CECECE;
+}
+.ns-cen-move>ol>li img{
+	width: 100%;
+	height: 100%;
+}
+.ns-img-price{
+	padding: 10px 0;
+	color: #00d7dc;
+	font-size:18px;
+}
+
+.ns-img-name a{
+	font-size: 12px;
+	transition: color 0.5s;
+}
+.ns-img-name:hover a{
+	color: #00d7dc;
+}
+
+.nsp-icons{
+	display: inline-block;
+	font-size: 12px;
+	padding: 0px 2px;
+	background: #e23a3a;
+	color: #fff;
+	border: 1px solid #e23a3a;
+	margin-top: 20px;
+}
+
+.ns-page{
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+}
+.ns-page>ul{
+	float: right;
+}
+.ns-page>ul li{
+	float: left;
+}
+.ns-page>ul li:nth-child(1){
+	border: 1px solid #CECECE;
+	border-right: none;
+	padding: 5px 10px;
+	color: #dddddd;
+	background-color: #fff;
+}
+.ns-page>ul li:nth-child(2){
+	padding: 6px 10px;
+	background-color: #00eef3;
+}
+.ns-page>ul li:nth-child(3){
+	border: 1px solid #CECECE;
+	border-left: none;
+	padding: 5px 10px;
+	color: #dddddd;
+	background-color: #fff;
+}
+.ns-page>ul li:nth-child(4){
+	padding: 6px 10px;
+	
+}
+.ns-page>ul li:nth-child(5){
+	border: 1px solid #CECECE;
+}
+.ns-page>ul li:nth-child(5) #page-num{
+	width: 40px;
+	height: 28px;
+	outline: none;
+	border: none;
+}
+.ns-page>ul li:nth-child(6) #page-btn{
+	padding: 5px 10px;
+	border: 1px solid #CECECE;
+}
+
+/* 轮播图效果展示商品------ */
+.ns-like-history{
+	width: 100%;
+	margin-top: 50px;
+	/* border: 1px solid red; */
+	overflow: hidden;
+}
+.ns-lh-container{
+	height: 30px;
+}
+.ns-lh-container li{
+	float: left;
+	margin-right:50px;
+	padding: 5px 0px;
+	cursor: pointer;
+}
+/* 默认优先显示 */
+.ns-link{
+	color: #00d7dc;
+	border-bottom: 2px solid #00d7dc;
+}
+.ns-goods-placeholder{
+	width: 100%;
+	height: 300px;
+	margin-top: 10px;
+	position: relative;
+}
+.ns-goods-placeholder>div{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.ns-link-goods{
+	display: block;
+}
+.ns-history-goods{
+	display: none;
+}
+
+.ns-move-goods{
+	width: 4800px;
+	height: 100%;
+	display: flex;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.ns-move-goods li{
+	/* width: 198px; */
+	padding: 20px;
+	border: 1px dashed #b7b7b7;
+}
+
+.ns-goods-img{
+	width: 160px;
+	padding: 0px 19px;
+}
+.ns-goods-img a img{
+	width: 100%;
+}
+.ns-goods-message{
+	width: 195px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 14px;
+}
+.ns-goods-message a:hover{
+	color: #00D7DC;
+	transition: all 0.5s;
+}
+
+.ns-goods-message>p{
+	color: #00d7dc;
+	margin:15px 0 5px;
+}
+.ns-goods-message>button{
+	padding: 5px 20px;
+	border: 1px solid #00D7DC;
+	color: #00D7DC;
+	outline: none;
+	border-radius: 5px;
+	background-color: transparent;
+}
+
+
+/* ---------- */
+/* ---------- */
+
+/* 切换按钮 */
+.ns-left-move,.ns-right-move{
+	display: inline-block;
+	width: 40px;
+	height: 100px;
+	text-align: center;
+	line-height: 80px;
+	color: #999999;
+	font-size: 42px;
+	font-weight: 700;
+	background: rgba(0, 0, 0, 0.1);
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.ns-left-move:hover,.ns-right-move:hover{
+	color: #00d7dc;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.ns-left-move{
+	left: 0px;
+}
+.ns-right-move{
+	right: 0px;
+}
+
+.ns-empty{
+	font-size: 12px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/* mian end */

@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11753219",
+      "name": "钥匙",
+      "font_class": "V",
+      "unicode": "e6cd",
+      "unicode_decimal": 59085
+    }
+  ]
+}

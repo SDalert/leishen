@@ -1,0 +1,114 @@
+/*侧导航*/
+/*个人中心板块高度*/
+.personage{
+	height: 750px;
+	font-size: 14px;
+}
+/*li颜色改变*/
+.personage-item .text-color{
+	color:#00d7dc ;
+}
+/*内容*/
+.parsonage-main{
+	margin-left:20px ;
+	margin-top:20px ;
+	width: 930px;
+	height: 500px;
+	background-color: #fff;
+	float: left;
+	padding: 20px;
+	position: relative;
+}
+.parsonage-main .nav-tabs{
+	height: 30px;
+	border-bottom:1px solid #ddd;
+}
+.nav-tabs-message{
+	width: 100px;
+	height: 30px;
+	float: left;
+	border:1px solid #ccc;
+	border-bottom-color:transparent ;
+	background-color: #fff;
+	text-align: center;
+	font-size: 14px;
+	color: #00eef3;
+}
+.nav-tabs-img{
+	width: 100px;
+	height: 30px;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+}
+/*基础信息*/
+.tab-content{
+	width: 930px;
+	height: 400px;
+	margin-top:20px ;
+	display: block;
+}
+.tab-content-group{
+	width: 500px;
+	height: 30px;
+	margin-top:15px ;
+	font-size: 14px;
+}
+.tab-content-group .col-sm-2{
+	width: 100px;
+	text-align: right;
+	float: left;
+}
+.wh{
+	width: 200px;
+	height: 30px;
+	margin-left:20px ;
+	border: 1px solid #ccc;
+}
+.tab-content-group #sex{
+	margin-left:130px ;
+}
+.btn{
+	width:50px;
+	height: 30px;
+	background-color: #00eef3;
+	border: none;
+	margin-top:20px ;
+	margin-left: 120px;
+}
+/*头像照片*/
+.tab-content1{
+	width: 930px;
+	height: 300px;
+	margin-top:20px ;
+	position: absolute;
+	top: 52px;
+	left: 20px;
+	display: none;
+}
+.form-group1{
+	float: left;
+	margin: 30px 20px 0px 50px;
+}
+.form-group2{
+	float: left;
+	margin-top:20px;
+	
+}
+.group-text-color{
+	color: #00d7dc;
+}
+.group-image{
+	border: 1px solid #ccc;
+	margin-top:20px ;
+	width: 100px;
+	height: 100px;
+}
+.btn-primary{
+	margin-top:20px ;
+	width: 50px;
+	height: 30px;
+	background-color: #00d7dc;
+	border: none;
+	outline: none;
+}

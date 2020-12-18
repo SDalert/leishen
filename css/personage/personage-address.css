@@ -1,0 +1,32 @@
+/*侧导航*/
+/*个人中心板块高度*/
+.personage{
+	height: 750px;
+	font-size: 14px;
+}
+/*li颜色改变*/
+.personage-item .text-color{
+	color:#00d7dc ;
+}
+/*内容*/
+.parsonage-main{
+	margin-left:20px ;
+	margin-top:20px ;
+	width: 930px;
+	height: 60px;
+	background-color: #fff;
+	float: left;
+	padding: 20px;
+	position: relative;
+}
+.member-main{
+	width:100px;
+	height: 30px;
+	margin-top:10px ;
+	background-color: #00eef3;
+	border-radius:5px;
+	border:none;
+	outline: none;
+	font-weight: 700;
+}
+

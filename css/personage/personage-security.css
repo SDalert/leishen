@@ -1,0 +1,60 @@
+/*侧导航*/
+/*个人中心板块高度*/
+.personage{
+	height: 750px;
+	font-size: 14px;
+}
+/*li颜色改变*/
+.personage-item .text-color{
+	color:#00d7dc ;
+}
+/*内容*/
+.parsonage-main{
+	margin-left:20px ;
+	margin-top:20px ;
+	width: 930px;
+	height: 360px;
+	background-color: #fff;
+	float: left;
+	padding: 20px;
+	position: relative;
+}
+
+/*每一大块样式*/
+.clearfix-column{
+	width: 890px;
+	height: 80px;
+	padding: 20px;
+	border-top:1px solid #ccc ;
+}
+.clearfix .clearfix-column:nth-child(1){
+	border-top:none ;
+	
+}
+/*左边内容*/
+.clearfix-column .icon-qiandao-xianxing{
+	font-size: 45px;
+	float: left;
+}
+/*中间样式*/
+.clearfix-column .column-desc{
+	float: left;
+	margin-left:30px ;
+}
+.column-desc .title{
+	font-size:16px;
+	margin-bottom:5px ;
+}
+.column-desc .text{
+	color: #898989;
+}
+/*右边内容*/
+.column-operation{
+	float: right;
+	width: 60px;
+	height: 30px;
+	background-color: #00eef3;
+	border: none;
+	outline: none;
+	margin-top:10px ;
+}

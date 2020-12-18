@@ -1,0 +1,607 @@
+/* 轮播 */
+
+.content-banner {
+    width: 100%;
+    background-color: #F0F3EF;
+}
+
+.content-chart {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.content-chart .content-ul {
+    width: 100%;
+    height: 464px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-chart .content-ul li {
+    width: 100%;
+    height: 464px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.content-chart .content-ul .content-li {
+    z-index: 2;
+}
+
+.content-chart .content-ul li img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}
+
+
+/* 左右按钮 */
+
+.content-left,
+.content-right {
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(255, 255, 255, .5);
+    font-size: 28px;
+    position: absolute;
+    z-index: 100;
+}
+
+.content-right .icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.content-left .icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.content-left:hover {
+    color: #00d7dc;
+}
+
+.content-right:hover {
+    color: #00d7dc;
+}
+
+.content-left {
+    top: 50%;
+    margin-top: -25px;
+    left: 30px;
+}
+
+.content-right {
+    top: 50%;
+    margin-top: -25px;
+    right: 30px;
+}
+
+
+/* 小圆点 */
+
+.content-active {
+    background-color: #fff;
+}
+
+.content-circle {
+    width: 600px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    margin-left: -300px;
+    z-index: 100;
+}
+
+.content-span {
+    width: 102px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -51px;
+    top: 0;
+}
+
+.content-span span {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    float: left;
+    margin-left: 5px;
+}
+
+
+/* 主体部分:第一块 */
+
+.content-main {
+    width: 1200px;
+    margin: 14px auto;
+    height: 510px;
+}
+
+.content-news {
+    width: 1200px;
+    height: 170px;
+}
+
+.content-news-left {
+    display: inline-block;
+    width: 216px;
+    height: 170px;
+    background-color: #00eef3;
+}
+
+.content-news-left ul {
+    width: 216px;
+    height: 170px;
+}
+
+.content-news-left ul li {
+    float: left;
+    width: 102px;
+    height: 82px;
+    padding: 0 3px;
+    position: relative;
+    font-size: 12px;
+}
+
+.content-news-left ul li img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -11px;
+    margin-top: -12px;
+}
+
+.content-news-left ul li p {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.con-li span {
+    display: inline-block;
+    width: 90px;
+    height: 1px;
+    background-color: #000;
+    margin-left: 7px;
+}
+
+.con-li .con-span {
+    height: 70px;
+    width: 1px;
+    margin-left: 0px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+
+.con-li .con-li1 {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+}
+
+.con-li .con-li2 {
+    width: 1px;
+    height: 70px;
+    position: absolute;
+    left: -8px;
+    top: 13px;
+}
+
+.content-news-right {
+    display: inline-block;
+    width: 975px;
+    height: 170px;
+}
+
+.content-news-right div {
+    display: inline-block;
+    margin-left: 8px;
+    transition: all .5s;
+}
+
+.content-news-right .Connews-img:hover {
+    box-shadow: 0px 10px 14px 3px #C0C0C0;
+}
+
+.Con-news {
+    width: 282px;
+    height: 138px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    color: #333;
+    font-size: 12px;
+    background-color: #fff;
+    float: right;
+}
+
+.Con-news .content-head {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.Con-news .content-head .content-Express {
+    font-size: 16px;
+    line-height: 16px;
+    color: #00d7dc;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.Con-news .content-head .content-more {
+    float: right;
+    cursor: pointer;
+}
+
+.Con-news .content-head .content-more:hover {
+    color: #00d7dc;
+}
+
+.Con-news ul li {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.Con-news ul li:hover {
+    color: #00d7dc;
+}
+
+.span-hov {
+    color: #00d7dc;
+}
+
+
+/*  热门单品推荐 */
+
+.content-star-goods {
+    width: 100%;
+    height: 340px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-recommend {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.content-recommend:hover {
+    color: #00d7dc;
+}
+
+.content-arrow {
+    position: absolute;
+    right: 0px;
+    top: 12px;
+}
+
+.content-arrow div {
+    width: 24px;
+    height: 16px;
+    float: left;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 16px;
+    color: #b0b0b0;
+    cursor: pointer;
+}
+
+.content-arrow div:hover {
+    color: #00bcbf;
+}
+
+.content-star-goods ul {
+    width: 2460px;
+    position: absolute;
+}
+
+.content-star-goods ul li {
+    width: 230px;
+    height: 299px;
+    margin-right: 14px;
+    padding-top: 39px;
+    background-color: #fff;
+    border-top: 1px solid #ffac13;
+    float: left;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.content-star-goods ul li:hover {
+    box-shadow: 0px 10px 14px 3px #C0C0C0;
+}
+
+.content-star-goods ul li img {
+    width: 160px;
+    height: 160px;
+    /* margin: 0 auto 22px; */
+    margin: 0 34px 22px;
+}
+
+.content-star-goods ul li p {
+    height: 18px;
+    margin: 0 20px 12px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #b0b0b0;
+}
+
+.content-star-goods ul li .content-Thor {
+    margin: 0 20px 3px;
+    font-size: 14px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    color: #333;
+    transition: all 0.5s;
+}
+
+.content-star-goods ul li .content-Thor:hover {
+    color: #00bcbf;
+}
+
+
+/* 左侧边栏 */
+
+.content-aside {
+    position: fixed;
+    z-index: 100;
+    top: 50%;
+    left: 0;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.content-aside div {
+    width: 39px;
+    height: 50px;
+    padding-top: 1px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #b7b7b7;
+    color: #333;
+    margin-bottom: 2px;
+    font-size: 12px;
+    transition: all .1s;
+    
+}
+
+.content-aside div span {
+    width: 30px;
+    height: 35px;
+    margin: 8px 0px 0px 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.bgactive {
+    background-color: #00eef3 !important;
+}
+
+
+/* 第二个css */
+
+.content-index1 {
+    width: 1200px;
+    height: 340px;
+    margin: 0 auto;
+}
+
+.content-star-goods1 {
+    width: 100%;
+    height: 340px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-recommend1 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.content-recommend1:hover {
+    color: #00d7dc;
+}
+
+.content-arrow1 {
+    position: absolute;
+    right: 0px;
+    top: 12px;
+}
+
+.content-arrow1 div {
+    width: 24px;
+    height: 16px;
+    float: left;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 16px;
+    color: #b0b0b0;
+    cursor: pointer;
+}
+
+.content-arrow1 div:hover {
+    color: #00bcbf;
+}
+
+.content-star-goods1 ul {
+    width: 2460px;
+    position: absolute;
+    padding-left: 0px;
+}
+
+.content-star-goods1 ul li {
+    width: 230px;
+    height: 299px;
+    margin-right: 14px;
+    padding-top: 39px;
+    background-color: #fff;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    transition: box-shadow 0.2s linear;
+}
+
+.content-star-goods1 ul li:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.content-star-goods1 ul li img {
+    width: 160px;
+    height: 160px;
+    /* margin: 0 auto 22px; */
+    margin: 0 34px 22px;
+}
+
+.content-star-goods1 ul li p {
+    height: 18px;
+    margin: 0 20px 12px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #b0b0b0;
+}
+
+.content-star-goods1 ul li .content-Thor1 {
+    margin: 0 20px 3px;
+    font-size: 14px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    color: #333;
+    transition: all 0.5s;
+}
+
+.content-star-goods1 ul li .content-Thor1:hover {
+    color: #00bcbf;
+}
+
+.content-star-goods1 ul li .content-price1 {
+    color: #00bcbf;
+    font-size: 14px;
+}
+
+
+/* 第三个css */
+
+.content-index2 {
+    width: 1200px;
+    height: 340px;
+    margin: 0 auto;
+}
+
+.content-star-goods2 {
+    width: 100%;
+    height: 340px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-recommend2 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.content-recommend2:hover {
+    color: #00d7dc;
+}
+
+.content-arrow2 {
+    position: absolute;
+    right: 0px;
+    top: 12px;
+}
+
+.content-arrow2 div {
+    width: 24px;
+    height: 16px;
+    float: left;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 16px;
+    color: #b0b0b0;
+    cursor: pointer;
+}
+
+.content-arrow2 div:hover {
+    color: #00bcbf;
+}
+
+.content-star-goods2 ul {
+    width: 2460px;
+    position: absolute;
+    padding-left: 0px;
+}
+
+.content-star-goods2 ul li {
+    width: 290px;
+    height: 285px;
+    margin-right: 14px;
+    background-color: #fff;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    transition: box-shadow 0.2s linear;
+}
+
+.content-star-goods2 ul li:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.content-star-goods2 ul li img {
+    width: 290px;
+    height: 180px;
+}
+
+.content-star-goods2 ul li p {
+    height: 18px;
+    margin: 0 20px 12px;
+    color: #b0b0b0;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    transition: all 0.5s;
+    margin: 20px 20px 3px;
+}
+
+.content-star-goods2 ul li p:hover {
+    color: #00bcbf;
+}

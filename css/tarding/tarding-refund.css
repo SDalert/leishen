@@ -1,0 +1,21 @@
+.refund-table{
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+.refund-table-title{
+    width: 928px;
+    height: 32px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f0f3ef;
+}
+.refund-table-title>span{
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+}
+.refund-table-title>span:first-child{
+    width: 223px;
+}
+.refund-table-title>span:not(:first-child){
+    width: 113px;
+}

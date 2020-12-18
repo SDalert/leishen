@@ -1,0 +1,18 @@
+.top-adver img{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.adver-del{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    right: 5px;
+}

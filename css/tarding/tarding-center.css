@@ -1,0 +1,167 @@
+a{
+    color: black;
+    text-decoration: none;
+}
+.pers-center{
+    height: 1020px;
+    font-size: 14px;
+}
+.tarding-main{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 930px;
+    background-color: #fff;
+    float: left;
+    padding: 20px;
+    position: relative;
+}
+.tarding-main-title{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.order-top{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 32px;
+}
+.order-status{
+    float: left;
+}
+.order-status>li{
+    float: left;
+    padding-right: 20px;
+    
+}
+.order-status>li>a{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.order-status>li>a:hover{
+    color: #00d7dc;
+    border-bottom: 2px solid #00d7dc;
+}
+.order-search{
+    float: right;
+    height: 30px;
+    position: relative;
+}
+.order-search input{
+    width: 174px;
+    height: 20px;
+    padding: 5px 8px;
+    font-size: 13px;
+    position: absolute;
+    top: 0;
+    left: -275px;
+    border-radius: 0px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+.order-search button{
+    border: 1px solid #ccc;
+    outline: none;
+}
+.search-btn{
+    width: 38px;
+    height: 32px;
+    background: url(../../images/tarding/fangdajing.png) no-repeat center;
+    position: absolute;
+    top: 0;
+    right: 45px;
+}
+.search-check{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 32px;
+}
+.order-table{
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+.order-table-title{
+    width: 928px;
+    height: 32px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f0f3ef;
+}
+.order-table-title>span{
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+}
+.order-table-title span:first-child{
+    width: 433px;
+}
+.order-table-title span:not(:first-child){
+    width: 120px;
+}
+.order-table-main{
+    height: 110px;
+}
+.order-table-main img{
+    display: block;
+    width: 70px;
+    height: 60px;
+    margin: 10px auto;
+}
+.order-table-main>p{
+    margin-top: 10px;
+    text-align: center;
+}
+.order-table-main>p>a{
+    color: #00d7dc;
+}
+/* 商品推荐 */
+.yn-member-recommend{
+    width: 970px;
+    height: 700px;
+    float: left;
+    margin-left: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+.yn-member-recGoods{
+    padding: 20px;
+
+}
+.yn-member-recGoods-li{
+    width: 210px;
+    height: 320px;
+    float: left;
+    margin: 0px 10px 30px 10px;
+}
+.yn-member-recimg{
+    width: 200px;
+}
+.yn-member-goodsTit{
+    margin-top: 5px;
+}
+.yn-member-goodsPrice{
+    margin-top: 10px;
+    color: red;
+}
+.yn-member-goodsExplain{
+    width: 200px;
+    height: 20px;
+    color: #898989;
+    margin-top: 10px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* hover效果 */
+.yn-member-recimg:hover{
+    transition:0.5s all;
+    transform:scale(1.1)
+}
+.yn-member-recGoods-li:hover .yn-member-goodsTit{
+    transition: 1s,1s,1s,1s;
+    color: #00d7dc;
+}

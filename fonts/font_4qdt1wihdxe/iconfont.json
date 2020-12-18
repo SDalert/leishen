@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "458555",
+      "name": "2我的账单18x20",
+      "font_class": "2wodezhangdan18x20",
+      "unicode": "e866",
+      "unicode_decimal": 59494
+    }
+  ]
+}

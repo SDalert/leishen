@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "13581221",
+      "name": "售后无忧",
+      "font_class": "shouhouwuyou",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    }
+  ]
+}

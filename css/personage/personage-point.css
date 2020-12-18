@@ -1,0 +1,173 @@
+/*侧导航*/
+/*个人中心板块高度*/
+.personage{
+	height: 750px;
+	font-size: 14px;
+}
+/*li颜色改变*/
+.personage-item .text-color{
+	color:#00d7dc ;
+}
+/*内容*/
+.parsonage-main{
+	margin-left:20px ;
+	margin-top:20px ;
+	width: 930px;
+	height: 320px;
+	background-color: #fff;
+	float: left;
+	padding: 20px;
+	position: relative;
+}
+.point-info--box{
+	height: 120px;
+}
+/*头部左边内容*/
+.point-info-left{
+	float: left;
+	width:440px;
+	height:120px;
+}
+.point-info{
+	float: left;
+	text-align: center;
+	width: 100px;
+}
+.point-info-title{
+	font-size: 16px;
+	font-weight: 700;
+}
+.point-info-point{
+	font-size: 50px;
+	font-weight: 700;
+}
+.point-info-tip{
+	color:red;
+}
+/*头部右边内容*/
+.point-info-right{
+	float: left;
+	width:440px;
+	height:120px;
+	padding-left: 50px;
+}
+.bg_count{
+	background-color: #E6E6E6;
+	height: 80px;
+}
+.counttime{
+	padding:10px;
+	background-color: #fff;
+	font-size: 18px;
+	color:#00bcbf;
+	text-align: center;
+	width:200px;
+	margin:10px;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+.ckqiao1{
+	width: 150px;
+	height: 80px;
+	float: left;
+	text-align: center;
+}
+.yueling{
+	margin-top:10px;
+}
+.yueling span{
+	color: #00bcbf;
+}
+.zanwei{
+	width: 130px;
+	height: 30px;
+	background-color: #ccc;
+	border-radius:10px ;
+	text-align: center;
+	color: #fff;
+	padding: 0px 10px;
+	font-size: 16px;
+	padding-top:10px ;
+}
+
+.zanwei img{
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+	
+}
+.main-center1{
+	width: 100%;
+	height: 40px;
+}
+.main-center-color{
+	background-color: #f1f1f1;
+}
+.main-center1 div{
+	float: left;
+	line-height: 40px;
+}
+.align-left1{
+	width: 187px;
+	height: 40px;
+	text-align: center;
+}
+.align-center1{
+	width: 232px;
+	height: 40px;
+	text-align:right;
+	
+}
+.align-right1{
+	width: 510px;
+	height: 40px;
+	text-align:center;
+}
+/*右下角*/
+.pager{
+	width: 300px;
+	height: 60px;
+	position: absolute;
+	bottom: -75px;
+	right: 0px;
+}
+.pager li{
+	float: left;
+	font-size: 14px;
+	text-align: center;
+}
+.pager-item-left,.pager-item-right{
+	background-color: #fff;
+	padding:10px 0px ;
+	color: #dddddd;
+	border-color:#dddddd ;
+	width: 60px;
+}
+.active{
+	width: 40px;
+	height: 40px;
+	background-color: #00eef3;
+	line-height: 40px;
+	text-align: center;
+}
+.paher-label{
+	width: 60px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.pager-goto{
+	width: 30px;
+	height: 38px;
+	text-align: center;
+	outline: none;
+	border: 1px solid #ccc;
+}
+.pager .tiaozhuang{
+	width: 40px;
+	height: 38px;
+	border: 1px solid #ccc;
+	line-height: 30px;
+	float: right;
+}					

@@ -1,0 +1,143 @@
+.reg_nav {
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.reg_nav img {
+    width: 124px;
+    height: 60px;
+    margin: 15px 0 15px 120px;
+}
+
+.reg_layout {
+    width: 1200px;
+    height: 745px;
+    margin: 0 auto;
+    background: url(../images/reg_forgame.jpg) no-repeat 80% 130px;
+}
+
+.reg_l_nav {
+    width: 1080px;
+    height: 38px;
+    margin-left: 120px;
+}
+
+.reg_tab {
+    width: 126px;
+    height: 38px;
+    color: #0dcecb;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    text-align: center;
+    line-height: 39px;
+    float: left;
+    background-color: #fff;
+}
+
+.reg_t_r {
+    width: 158px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    color: #333;
+    float: right;
+}
+
+.reg_t_r a {
+    color: #0dcecb;
+}
+
+.reg_content {
+    width: 1038px;
+    height: 625px;
+    border: 1px solid #e5e5e5;
+    padding: 40px 100px 40px 60px;
+}
+
+.reg_username {
+    width: 1038px;
+    height: 41px;
+    margin-bottom: 30px;
+}
+
+.reg_names {
+    height: 38px;
+    width: 262px;
+    font-size: 12px;
+    padding-left: 8px;
+    border: 1px solid #cecece;
+    outline: none;
+}
+
+.reg_username label {
+    display: inline-block;
+    width: 150px;
+    height: 38px;
+    margin-right: 10px;
+    text-align: right;
+    line-height: 38px;
+    vertical-align: bottom;
+    font-weight: normal;
+    color: #898989;
+    position: relative;
+    top: -8px;
+}
+
+.reg_username span {
+    color: #0dcecb;
+}
+
+#code {
+    width: 132px;
+}
+
+.reg_code_psw {
+    width: 100px;
+    height: 38px;
+    background-color: #ccc;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    text-align: center;
+    line-height: 38px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.reg_code_psw1 {
+    width: 100px;
+    height: 38px;
+    background-color: #ccc;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    text-align: center;
+    line-height: 38px;
+    font-size: 13px;
+    border: 1px solid #a6a6a6;
+}
+
+#checkbox {
+    width: 13px;
+    height: 13px;
+    margin-left: 69px;
+}
+
+#checkbox_text {
+    color: #898989;
+}
+
+.reg_btn {
+    width: 270px;
+    height: 37px;
+    margin-left: 120px;
+    background-color: #00eef3;
+    cursor: pointer;
+    color: #000;
+    font-size: 13px;
+    text-align: center;
+    line-height: 37px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}

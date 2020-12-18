@@ -1,0 +1,23 @@
+{
+  "id": "2042967",
+  "name": "雷神官网",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "846626",
+      "name": "三角",
+      "font_class": "triangle-right",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "846629",
+      "name": "三角",
+      "font_class": "triangle-left",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    }
+  ]
+}

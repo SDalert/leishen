@@ -1,0 +1,147 @@
+/*侧导航*/
+/*个人中心板块高度*/
+.personage{
+	height: 750px;
+	font-size: 14px;
+}
+/*li颜色改变*/
+.personage-item .text-color{
+	color:#00d7dc ;
+}
+/*内容*/
+.parsonage-main{
+	margin-left:20px ;
+	margin-top:20px ;
+	width: 930px;
+	height: 250px;
+	background-color: #fff;
+	float: left;
+	padding: 20px;
+	position: relative;
+	
+}
+/*账户余额-*/
+.balance-info{
+	padding:20px 30px;
+	display: flex;
+}
+.pull-left{
+	flex: 0.6;
+}
+/*我的可用余额*/
+.pull-left-title{
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom:10px ;
+}
+/*钱*/
+.pull-left-price{
+	font-weight: 700;
+	font-size: 24px;
+	position: relative;
+}
+.pull-left-price em {
+	font-size: 50px;
+	font-style: normal;
+	position: relative;
+}
+.price-text-color{
+	float: right;
+	font-size: 14px;
+	font-weight:normal;
+	color:#00d7dc ;
+	position: absolute;
+	bottom: 10px;
+	left: 70px;
+}
+/*右边，钱的状态*/
+.pull-right{
+	flex: 1;;
+};
+.pull-right .list{
+	padding: 0px 15px;
+}
+.pull-right .list li{
+	height: 26px;
+	line-height: 26px;
+	font-size: 12px;
+}
+.money{
+	font-weight: 700;
+	font-size: 16px;
+	font-style: normal;
+}
+.status{
+	font-style: normal;
+}
+/*余额明细*/
+.balance-detailed{
+	margin-top:10px ;
+	
+}
+.balance-detailed1{
+	background-color: #e5e5e5;
+	padding: 8px 0px;
+}
+.balance-detailed1 .align-left{
+	margin:0px 80px ;
+}
+.balance-detailed1 .align-center{
+	margin: 0px  100px;
+}
+.balance-detailed1 .align-right{
+	margin: 0px  120px;
+}
+.balance-detailed2{
+	margin-top:20px ;
+	text-align: center;
+	font-weight: 400;
+	font-size: 12px;
+}
+/*右下角*/
+.pager{
+	width: 300px;
+	height: 60px;
+	position: absolute;
+	bottom: -75px;
+	right: 0px;
+}
+.pager li{
+	float: left;
+	font-size: 14px;
+	
+}
+.pager-item-left,.pager-item-right{
+	background-color: #fff;
+	padding:10px 0px ;
+	color: #dddddd;
+	border-color:#dddddd ;
+	width: 60px;
+}
+.active{
+	width: 40px;
+	height: 40px;
+	background-color: #00eef3;
+	line-height: 40px;
+	text-align: center;
+}
+.paher-label{
+	width: 60px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.pager-goto{
+	width: 30px;
+	height: 38px;
+	text-align: center;
+	outline: none;
+	border: 1px solid #ccc;
+}
+.pager .tiaozhuang{
+	width: 40px;
+	height: 38px;
+	border: 1px solid #ccc;
+	line-height: 30px;
+	float: right;
+}

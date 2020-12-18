@@ -1,0 +1,51 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6234478",
+      "name": "二维码",
+      "font_class": "erweima",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "11753310",
+      "name": "耳机",
+      "font_class": "V",
+      "unicode": "e6d0",
+      "unicode_decimal": 59088
+    },
+    {
+      "icon_id": "16588065",
+      "name": "心",
+      "font_class": "xin",
+      "unicode": "e705",
+      "unicode_decimal": 59141
+    },
+    {
+      "icon_id": "16895364",
+      "name": "bxs-cart",
+      "font_class": "bxs-cart",
+      "unicode": "e7d7",
+      "unicode_decimal": 59351
+    },
+    {
+      "icon_id": "16895682",
+      "name": "bxs-user",
+      "font_class": "bxs-user",
+      "unicode": "e843",
+      "unicode_decimal": 59459
+    },
+    {
+      "icon_id": "16896916",
+      "name": "bx-time",
+      "font_class": "bx-time",
+      "unicode": "e9b5",
+      "unicode_decimal": 59829
+    }
+  ]
+}

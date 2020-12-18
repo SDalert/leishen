@@ -1,0 +1,38 @@
+/*侧导航*/
+/*个人中心板块高度*/
+.personage{
+	height: 750px;
+	font-size: 14px;
+}
+/*li颜色改变*/
+.personage-item .text-color{
+	color:#00d7dc ;
+}
+/*内容*/
+.parsonage-main{
+	margin-left:20px ;
+	margin-top:20px ;
+	width: 930px;
+	height: 100px;
+	background-color: #fff;
+	float: left;
+	padding: 20px;
+	position: relative;
+}
+.title{
+	font-size: 16px;
+	font-weight: 700;
+}
+.mbPmyjf{
+	width: 100%;
+	height: 50px;
+	background-color: rgb(244,244,244);
+	margin-top:30px ;
+	line-height: 50px;
+}
+.mbPmyjf .tit0{
+	margin: 0px 80px 0px 20px;
+}
+.mbPmyjf .tit1{
+	margin-right: 120px;
+}

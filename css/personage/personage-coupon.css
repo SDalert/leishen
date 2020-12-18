@@ -1,0 +1,63 @@
+/*侧导航*/
+/*个人中心板块高度*/
+.personage{
+	height: 750px;
+	font-size: 14px;
+}
+/*li颜色改变*/
+.personage-item .text-color{
+	color:#00d7dc ;
+}
+/*内容*/
+.parsonage-main{
+	margin-left:20px ;
+	margin-top:20px ;
+	width: 930px;
+	height: 300px;
+	background-color: #fff;
+	float: left;
+	padding: 20px;
+	position: relative;
+}
+.personage-title{
+	font-weight: 700;
+	font-size: 16px;
+}
+.nav-tabs{
+	margin-top:20px ;
+	height: 40px;
+}
+.nav-tabs div{
+	float: left;
+	width: 60px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin:0px 10px ;
+}
+.nav-tabs div:hover{
+	background-color: #e5e5e5;
+	color:#00eef3 ;
+}
+.nav-tabs .active{
+	color: #00eef3;
+}
+.nav-tabs .active:hover{
+	background-color: #fff;
+	color:#00d7dc;
+}
+.card-color{
+	border: 1px dashed #fff;
+	background-color: rgba(226,52,53,0.6);
+	height: 180px;
+	width: 300px;
+	margin-top:10px;
+	margin-left:20px ;
+}
+.card-color p{
+	color: #fff;
+	margin: 10px 20px;
+}
+.card-color>:nth-child(1){
+	font-size:22px;
+}

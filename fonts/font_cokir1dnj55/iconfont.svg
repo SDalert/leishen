@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="daifukuan" unicode="&#58882;" d="M872 511.68V608A72 72 0 0 1 800 680H224A72 72 0 0 1 152 608v-448A72 72 0 0 1 224 88h576A72 72 0 0 1 872 160v96.32a95.488 95.488 0 0 1 48 17.696V160A120 120 0 0 0 800 40H224A120 120 0 0 0 104 160V608A120 120 0 0 0 224 728h576A120 120 0 0 0 920 608v-114.016a95.488 95.488 0 0 1-48 17.696zM512 504h352A88 88 0 0 0 952 416v-64A88 88 0 0 0 864 264H512A88 88 0 0 0 424 352v64A88 88 0 0 0 512 504z m0-48c-22.08 0-40-17.92-40-40v-64c0-22.08 17.92-40 40-40h352c22.08 0 40 17.92 40 40v64c0 22.08-17.92 40-40 40H512zM832 384m-32 0a32 32 0 1 1 64 0 32 32 0 1 1-64 0Z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

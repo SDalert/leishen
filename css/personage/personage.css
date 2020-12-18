@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+/*个人中心板块*/
+.personage{
+	width:100%;
+	height: 700px;
+	background-color: #f0f3ef;
+}
+/*版心*/
+.personage-center{
+	width: 1200px;
+	height: 700px;
+	margin:0px auto;
+	
+}
+/*侧导航栏*/
+.personage-aside{
+	width: 210px;
+	float: left;
+	margin-top:20px;
+	background-color: #fff;
+}
+/*侧导航上下两块样式*/
+.personage-item{
+	padding: 15px 30px;
+	border:1px solid #f3f3f3;
+}
+.personage-item p{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 32px;
+}
+.personage-item li{
+	font-size: 14px;
+	line-height: 32px;
+}
+.personage-item li a{
+	color: inherit;
+	text-decoration: none;
+}
+/*.personage-item .text-color{
+	color:#00d7dc ;
+}*/
+.personage-item li:hover{
+	color:#00d7dc ;
+	transition: all 0.5s ; 
+}

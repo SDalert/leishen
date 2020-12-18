@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3050841",
+      "name": "付款-锁定",
+      "font_class": "wallet-lock",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    }
+  ]
+}

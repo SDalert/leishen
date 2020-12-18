@@ -1,0 +1,52 @@
+/*侧导航*/
+/*个人中心板块高度*/
+.personage{
+	height: 750px;
+	font-size: 14px;
+}
+/*li颜色改变*/
+.personage-item .text-color{
+	color:#00d7dc ;
+}
+/*内容*/
+.parsonage-main{
+	margin-left:20px ;
+	margin-top:20px ;
+	width: 930px;
+	height: 120px;
+	background-color: #fff;
+	float: left;
+	padding: 20px;
+	position: relative;
+}
+.main-title{
+	font-size: 16px;
+	font-weight: 700;
+}
+.main-item{
+	height: 40px;
+	background-color: #e5e5e5;
+	line-height: 40px;
+	margin-top:20px ;
+}
+.main-item div{
+	float: left;
+}
+.main-item div:nth-child(1){
+	margin-left:10px ;
+	width: 400px;
+}
+.main-item div:nth-child(2){
+	width: 150px;
+}
+.main-item div:nth-child(3){
+	width: 150px;
+}
+.main-item div:nth-child(4){
+	width: 120px;
+}
+.main-aligin{
+	text-align: center;
+	margin: 10px 0px;
+	font-size: 12px;
+}
